@@ -17,13 +17,59 @@ body , html{
 /* CABECALHO */
 
 header{
-    background-color: red;
+    padding: 20px 0 20px 0;
 }
 #cotainer-geral{
-    background-color: green;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 32px 0 32px ;
     align-items: center;
+}
+#cotainer-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+}
+header nav ul,li,a{
+    list-style: none;
+    text-decoration: none;
+    color:#667085;
+}
+header nav ul{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    height: 100%;
+}
+header nav{
+    height: 42px;
+}
+
+#cotainer-btn{
+    display: flex;
+    justify-content: center;
+    height: 42px;
+    gap:12px ;
+}
+#btn-entrar{
+    width: 80px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: none;
+    color:#667085;
+    font-size: 15px;
+    cursor: pointer;
+}
+#btn-cadastrar{
+    width: 110px;
+    background-color:#8E2424;
+    border: 1px solid #8E2424;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
 }
