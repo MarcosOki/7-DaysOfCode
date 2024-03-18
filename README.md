@@ -1,1 +1,1 @@
-https://marcosoki.github.io/blog/
+https://marcosoki.github.io/7-DaysOfCode/
