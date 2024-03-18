@@ -3,6 +3,7 @@
 :root{
 
     --color-font: #667085;
+    --color-red: #8E2424;
 
 }
 body , html{
@@ -71,8 +72,8 @@ header nav{
 }
 #btn-cadastrar{
     width: 110px;
-    background-color:#8E2424;
-    border: 1px solid #8E2424;
+    background-color:var(--color-red);
+    border: 1px solid var(--color-red);
     border-radius: 8px;
     color: #fff;
     font-size: 15px;
@@ -90,7 +91,7 @@ header nav{
 }
 #section-sobre-nos h2{
     font-size: 16px;
-    color: #8E2424;
+    color: var(--color-red);
     padding: 12px;
 }
 #section-sobre-nos h1{
@@ -105,4 +106,32 @@ header nav{
     color: var(--color-font);
     text-align: center;
     padding: 12px 0 12px 0;
+}
+
+/* SEÇÃO 2 */
+
+#info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.card-info{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+.card-info h3{
+    font-size: 60px;
+    color: var(--color-red);
+}
+.card-info span{
+    font-size: 22px;
+    font: bold;
+}
+.card-info p{
+    color: var(--color-font);
+    margin-top: 10px;
+    font-size:16px ;
 }
