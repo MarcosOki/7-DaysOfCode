@@ -135,3 +135,31 @@ header nav{
     margin-top: 10px;
     font-size:16px ;
 }
+
+
+
+
+/*Seçao 3*/
+#vagas-info-cotainer{
+    padding: 96px 0 96px 0;
+    display: flex;
+
+}
+#vagas-info-cotainer  h2{
+    font-size: 16px;
+    color: var(--color-red);
+}
+#vagas-info{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+#vagas-info p{
+    color: var(--color-font);
+}
+#vagas-info img{
+    padding-top: 30px;
+}
