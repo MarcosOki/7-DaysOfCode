@@ -163,3 +163,45 @@ header nav{
 #vagas-info img{
     padding-top: 30px;
 }
+
+/*Seção 4*/
+
+#vagas-open-cotainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    padding-bottom: 50px;
+}
+#vagas-open{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.categoria-info{
+    padding: 30px;
+    border:solid #6670855e 1px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.vaga-name{
+    font-weight: 500;
+    font-size: 16px;
+}
+.categoria{
+    font-weight: 500;
+    font-size: 20px;
+}
+.info-vaga-span-cotainer{
+    display: flex;
+    gap: 20px;
+}
+.info-vaga-span{
+    color: var(--color-font);
+    font-size: 14px;
+} 
