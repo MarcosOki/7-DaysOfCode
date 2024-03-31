@@ -173,7 +173,6 @@ header nav{
     align-items: center;
     flex-direction: column;
     gap: 80px;
-    padding-bottom: 50px;
 }
 #vagas-open{
     width: 45%;
@@ -205,3 +204,49 @@ header nav{
     color: var(--color-font);
     font-size: 14px;
 } 
+
+
+/* Seção 5 */
+#colaboradores-cotainer{
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#colaboradores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+}
+#colaboradores p{
+    font-size:36px;
+    font-weight: 500;
+    width: 85%;
+    text-align: center;
+}
+#colaboradores h2{
+    font-size: 16px;
+    color: var(--color-red);
+}
+#perfil-desenvolvedora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    width: 100%;
+    gap: 5px;
+}
+#avatar{
+    background-image: url("/assets/Avatar.png");
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#perfil-desenvolvedora span{
+    font-weight: 500;
+}
+#perfil-desenvolvedora p{
+    font-size: 14px;
+    color: var(--color-font);
+}
