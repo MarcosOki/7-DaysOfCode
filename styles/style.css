@@ -237,7 +237,7 @@ header nav{
     gap: 5px;
 }
 #avatar{
-    background-image: url("/assets/Avatar.png");
+    background-image: url("../assets/Avatar.png");
     width: 60px;
     height: 60px;
     background-repeat: no-repeat;
