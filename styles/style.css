@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+
 :root{
 
     --color-font: #667085;
@@ -18,7 +19,19 @@ body , html{
     font-family: Inter;
 }
 
-
+h2{
+    padding: 12px;
+    border: 3px solid var(--color-red);
+    border-radius: 60px;
+    padding-inline: 40px;
+    color: var(--color-red);
+    transition: .8s;
+}
+h2:hover{
+    background-color: var(--color-red);
+    color: #fff;
+    transition: .8s ;
+}
 
 /* CABECALHO */
 
@@ -91,8 +104,10 @@ header nav{
 }
 #section-sobre-nos h2{
     font-size: 16px;
-    color: var(--color-red);
     padding: 12px;
+    border: 3px solid var(--color-red);
+    border-radius: 60px;
+    padding-inline: 40px;
 }
 #section-sobre-nos h1{
     font-size: 48px;
@@ -121,6 +136,12 @@ header nav{
     width: 20vw;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
+}
+.card-info:hover{
+    transform: scale(110%);
+    transition: all;
+    transition:.5s ;
 }
 .card-info h3{
     font-size: 60px;
@@ -147,7 +168,7 @@ header nav{
 }
 #vagas-info-cotainer  h2{
     font-size: 16px;
-    color: var(--color-red);
+
 }
 #vagas-info{
     width: 100vw;
@@ -209,24 +230,30 @@ header nav{
 /* Seção 5 */
 #colaboradores-cotainer{
     width: 100%;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 96px;
+    padding-bottom: 46px;
+    display: flex;
+    justify-content: center;
 }
 #colaboradores{
+    padding-top: 30px;
+    padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap:30px;
+    width: 80%;
+    background-color:#C3191908;
 }
 #colaboradores p{
     font-size:36px;
     font-weight: 500;
     width: 85%;
     text-align: center;
+    font-family: Inter;
 }
 #colaboradores h2{
     font-size: 16px;
-    color: var(--color-red);
 }
 #perfil-desenvolvedora{
     display: flex;
@@ -249,4 +276,59 @@ header nav{
 #perfil-desenvolvedora p{
     font-size: 14px;
     color: var(--color-font);
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F9FAFB;
+}
+#footer-content{
+    width: 50%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+footer div form{
+    display: flex;
+}
+footer div span{
+    font-size: 36px;
+    font-weight: 600;
+}
+footer div p:first-of-type{
+    color: #667085;
+    font-size: 20px;
+}
+footer div p:last-of-type{
+    color: var(--color-font);
+    font-size: 15px;
+}
+footer div form{
+    width: 100%;
+    gap: 15px;
+    justify-content: center;
+}
+footer div form input{
+    width: 50%;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px var(--color-font) solid;
+    font-size: 16px;
+    padding:18px 14px 18px 16px;
+}
+footer div form button{
+    width: 15%;
+    border-radius:8px;
+    border:none;
+    background-color: var(--color-red);
+    color: white;
+    font-size: 16px;
 }
