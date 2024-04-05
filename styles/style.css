@@ -57,6 +57,11 @@ header nav ul,li,a{
     list-style: none;
     text-decoration: none;
     color:var(--color-font);
+    transition: .5s;
+}
+header nav li:hover{
+    transform: scale(110%);
+    transition: .5s;
 }
 header nav ul{
     display: flex;
@@ -131,17 +136,22 @@ header nav{
     justify-content: space-between;
     padding-left: 32px;
     padding-right: 32px;
+    height: 180px;
 }
 .card-info{
     width: 20vw;
     display: flex;
     flex-direction: column;
     cursor: pointer;
+    transition: .5s;
+    padding-top: 5px;
 }
 .card-info:hover{
     transform: scale(110%);
     transition: all;
     transition:.5s ;
+    border-top:5px var(--color-font) solid;
+    border-radius: 16px;
 }
 .card-info h3{
     font-size: 60px;
@@ -208,6 +218,11 @@ header nav{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    transition: .3s;
+    cursor: pointer;
+}
+.categoria-info:hover{
+    background-color: #6670853a
 }
 .vaga-name{
     font-weight: 500;
